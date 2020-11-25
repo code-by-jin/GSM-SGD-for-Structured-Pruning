@@ -1,6 +1,5 @@
 # adapted from https://github.com/yanghr/DeepHoyer/issues/2
 
-from torchprofile import profile_macs
 import torch
 import numpy as np
 from final_pruning import final_unstruct_pruning, final_struct_pruning
